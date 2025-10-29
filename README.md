@@ -48,3 +48,5 @@
 
 ### 🔥 Fun Quote
 > “First, solve the problem. Then, write the code.” — John Johnson
+![GitHub Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=shaz-06&theme=react-dark)
+![GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=shaz-06&theme=radical)
