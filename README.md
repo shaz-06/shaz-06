@@ -1,5 +1,5 @@
 <h1 align="center">Hi 👋, I'm Shashank Shetty</h1>
-<h3 align="center">💻 Software & Web Developer | Passionate about building modern digital experiences</h3>
+<h3 align="center">💻 Software & Full-Stack Developer | Passionate about building modern digital experiences</h3>
 
 ---
 
