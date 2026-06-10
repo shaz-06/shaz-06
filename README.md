@@ -1,13 +1,18 @@
 <h1 align="center">Hi 👋, I'm Shashank Shetty</h1>
-<h3 align="center">💻 Software & Full-Stack Developer | Passionate about building modern digital experiences</h3>
+<h3 align="center">🎓 3rd Year Engineering Student | 🚀 Founder & CEO @ Buyto | 💻 Full-Stack Developer</h3>
 
 ---
 
 ### 🌟 About Me  
-🚀 I’m a passionate developer exploring the intersection of creativity and code.  
-💡 I love building responsive web apps and learning new frameworks.  
-🎯 Currently improving my skills in **React, Node.js, Python, HTML, CSS**.  
-📫 How to reach me: **shashankshetty3219@gmail.com**
+🎓 Third-Year Engineering Student passionate about technology, entrepreneurship, and innovation.
+
+🚀 Founder & CEO of Buyto, building a modern e-commerce and quick-commerce platform.
+
+💻 Full-Stack Developer focused on creating scalable web and mobile applications.
+
+🌱 Constantly learning, building products, and solving real-world problems through technology.
+
+🎯 My mission is to combine technology and entrepreneurship to create products used by millions.
 
 ---
 
@@ -17,6 +22,44 @@
 </p>
 
 ---
+---
+
+## 🚀 Buyto
+
+A next-generation e-commerce and quick-commerce platform focused on delivering convenience, speed, and a seamless shopping experience.
+
+🌐 Website: https://buyto.co.in
+
+📸 Instagram: [https://instagram.com/letsbuyto](https://www.instagram.com/letsbuyto/)
+
+### Highlights
+
+* ⚡ Fast Delivery Experience
+* 🛍️ Multi-Category Marketplace
+* 📱 Mobile-First Design
+* 📦 Real-Time Order Tracking
+* 💳 Secure Payments
+* 🚀 Built by Students, for Everyone
+
+
+---
+
+## 🚀 Featured Startup
+
+### Buyto
+
+A modern e-commerce and quick-commerce platform designed to provide fast, reliable, and seamless shopping experiences.
+
+#### Highlights
+
+- ⚡ Quick & Reliable Delivery
+- 🛍️ Multi-Category Marketplace
+- 📦 Real-Time Order Tracking
+- 📱 Mobile-First Experience
+- 💳 Secure Payments
+- 📊 Analytics Dashboard
+- 
+---
 
 ### 📊 GitHub Stats
 
@@ -25,10 +68,13 @@
 ---
 
 ### 🧠 Currently Working On
-- Learning **React & Express**
-- Building portfolio projects
-- Building a Webapp based on HTML,CSS,JS
-- Exploring **API integrations & authentication**
+- ## 🧠 Currently Building
+
+- 🚀 Scaling Buyto
+- 📱 Mobile Application Development
+- 🌐 Full-Stack Web Applications
+- 🤖 AI Integrations
+- ☁️ Cloud Deployment & Infrastructure
 
 ---
 
@@ -45,6 +91,6 @@
 ---
 
 ### 🔥 Fun Quote
-> “First, solve the problem. Then, write the code.” — John Johnson
+> "Ideas are easy. Execution is everything." — Shashank Shetty
 ![GitHub Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=shaz-06&theme=react-dark)
 ![GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=shaz-06&theme=radical)
