@@ -6,7 +6,7 @@
 ### 🌟 About Me  
 🎓 Third-Year Engineering Student passionate about technology, entrepreneurship, and innovation.
 
-🚀 Founder & CEO of Buyto, building a modern e-commerce and quick-commerce platform.
+🚀 Founder & CEO of Buyto, https://www.buyto.co.in/
 
 💻 Full-Stack Developer focused on creating scalable web and mobile applications.
 
