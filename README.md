@@ -4,9 +4,9 @@
 🎓 3rd Year Engineering Student | 🏬 Founder & CEO @ Buyto | A passionate developer from India 🇮🇳
 </h3>
 
-<p align="center">
-  <img src="https://komarev.com/ghpvc/?username=shaz-06&label=Profile%20Views&color=0e75b6&style=flat" alt="Profile Views" />
-</p>
+---
+
+![](https://komarev.com/ghpvc/?username=shaz-06&color=blue)
 
 ---
 
