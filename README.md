@@ -3,10 +3,6 @@
 
 ---
 
-![](https://komarev.com/ghpvc/?username=shaz-06&color=blue)
-
----
-
 ### 🌟 About Me  
 🎓 Third-Year Engineering Student passionate about technology, entrepreneurship, and innovation.
 
@@ -26,6 +22,11 @@
 </p>
 
 ---
+
+![](https://komarev.com/ghpvc/?username=shaz-06&color=blue)
+
+---
+
 ---
 
 ## 🚀 Buyto
