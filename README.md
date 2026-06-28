@@ -9,10 +9,6 @@
 
 ![](https://komarev.com/ghpvc/?username=shaz-06&color=blue)
 
----
-
-## 👨‍💻 About Me
-
 * 🚀 I’m currently working on [Buyto](https://buyto.co.in)
 * 📑 Check out my resume here - [Resume](https://drive.google.com/file/d/1Fba-3-UoqfgXcamEkMlK5BHEg_FvEI6M/view?usp=sharing)
 * 💻 All of my projects are available on [GitHub](https://github.com/shaz-06)
