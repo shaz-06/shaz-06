@@ -32,6 +32,9 @@
   <img src="https://streak-stats.demolab.com?user=shaz-06&theme=tokyonight" />
 </p>
 
+---
+## 📊 GitHub Contribution Graph
+
 <p align="center">
   <img src="https://github-readme-activity-graph.vercel.app/graph?username=shaz-06&theme=react-dark" />
 </p>
