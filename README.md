@@ -24,7 +24,7 @@
 ## 🛠️ Tech Stack
 
 <p align="center">
-  <img src="https://skillicons.dev/icons?i=html,css,js,react,nodejs,express,python,c,mongodb,mysql,git,github,vscode" />
+  <img src="https://skillicons.dev/icons?i=html,css,js,react,nodejs,express,python,mongodb,mysql,git,github,vscode,C,C++,Dart,Go,HTML5,JavaScript,Markdown,Python,Azure,Heroku,Vercel,Google Cloud,Firebase,DigitalOcean,Netlify,Render,AWS,Django,DjangoREST,FastAPI,Express.js,Flutter,Flask,Jinja,JWT,MUI,NodeJS,React,Streamlit,WordPress,TailwindCSS,Gunicorn,AmazonDynamoDB,Appwrite,Firebase,MicrosoftSQLServer,MongoDB,MySQL,PocketBase,Postgres,Redis,Supabase,SQLite,Canva,NumPy,Pandas,GitLab,CI,GitHub,Actions,Git,GitHub,GitLab,Arduino,Docker,Notion,Postman,Swagger,TOR,Terraform,Twilio" />
 </p>
 
 ---
