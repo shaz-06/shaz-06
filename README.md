@@ -1,5 +1,5 @@
 <h1 align="center">Hi 👋, I'm Shashank Shetty</h1>
-<h3 align="center">🎓 3rd Year Engineering Student | 🚀 Founder & CEO @ Buyto | 💻 Full-Stack Developer</h3>
+<h3 align="center">🎓 3rd Year Engineering Student | 🏬 Founder & CEO @ Buyto | A passionate developer from India 🇮🇳h3>
 
 ---
 
@@ -7,16 +7,11 @@
 
 ---
 
-### 🌟 About Me  
-🎓 Third-Year Engineering Student passionate about technology, entrepreneurship, and innovation.
-
-🚀 Founder & CEO of Buyto, https://www.buyto.co.in/
-
-💻 Full-Stack Developer focused on creating scalable web and mobile applications.
-
-🌱 Constantly learning, building products, and solving real-world problems through technology.
-
-🎯 My mission is to combine technology and entrepreneurship to create products used by millions.
+• 👨‍💻 I’m currently working on [Buyto](https://buyto.co.in)
+• 📑 Check out my resume here - [Resume](https://drive.google.com/file/d/1Fba-3-UoqfgXcamEkMlK5BHEg_FvEI6M/view?usp=sharing)
+• 💻 All of my projects are available on [GitHub](https://github.com/shaz-06)
+• 💬 Ask me about Apps, Backend and Artificial Intelligence
+• 📫 Reach out to me at [Gmail](shashankshetty3219@gmail.com)
 
 ---
 
@@ -67,8 +62,11 @@ A modern e-commerce and quick-commerce platform designed to provide fast, reliab
 
 ### 📊 GitHub Stats
 
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=shaz-06&show_icons=true&theme=tokyonight&cache_seconds=86400)
+![Shashank's GitHub stats](https://github-readme-stats.vercel.app/api?username=shaz-06&show_icons=true&theme=tokyonight)
 ![Top Languages](https://github-readme-stats-git-masterrstaa-rickstaa.vercel.app/api/top-langs/?username=shaz-06&layout=compact&theme=tokyonight)
+![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=shaz-06&layout=compact&theme=tokyonight)
+[![GitHub Streak](https://streak-stats.demolab.com?user=shaz-06&theme=tokyonight)](https://git.io/streak-stats)
+
 ---
 
 ### 🧠 Currently Working On
