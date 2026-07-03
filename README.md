@@ -51,9 +51,9 @@
 
 A next-generation e-commerce and quick-commerce platform focused on delivering convenience, speed, and a seamless shopping experience.
 
-🌐 Website: https://buyto.co.in
+🌐 Website: [Visit Website](https://buyto.co.in)
 
-📸 Instagram: https://www.instagram.com/letsbuyto/
+📸 Instagram: [Visit Instagram](https://www.instagram.com/letsbuyto/)
 
 ### Highlights
 
