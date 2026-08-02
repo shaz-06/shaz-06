@@ -1,7 +1,7 @@
 <h1 align="center">Hi 👋, I'm Shashank Shetty</h1>
 
 <h3 align="center">
-🎓 3rd Year Engineering Student | 🏬 Founder & CEO @ Buyto | A passionate developer from India 🇮🇳
+🎓 3rd Year Engineering Student | 🏬 Founder of Buyto | A passionate developer from India 🇮🇳
 </h3>
 
 ---
