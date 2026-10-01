@@ -1,0 +1,644 @@
+<svg xmlns="http://www.w3.org/2000/svg"
+     width="1200"
+     height="560"
+     viewBox="0 0 1200 560">
+
+  <defs>
+
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#080b14"/>
+      <stop offset=".5" stop-color="#0d1117"/>
+      <stop offset="1" stop-color="#151126"/>
+    </linearGradient>
+
+    <linearGradient id="aurora" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#22d3ee"/>
+      <stop offset=".5" stop-color="#a78bfa"/>
+      <stop offset="1" stop-color="#f472b6"/>
+    </linearGradient>
+
+    <linearGradient id="hoodie" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#f8fafc"/>
+      <stop offset="1" stop-color="#cbd5e1"/>
+    </linearGradient>
+
+    <pattern id="dots"
+             width="22"
+             height="22"
+             patternUnits="userSpaceOnUse">
+      <circle cx="2" cy="2"
+              r="1"
+              fill="#64748b"
+              opacity=".15"/>
+    </pattern>
+
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="5"
+                      result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+
+  </defs>
+
+
+  <!-- =====================================================
+       BACKGROUND
+       ===================================================== -->
+
+  <rect width="1200"
+        height="560"
+        rx="34"
+        fill="url(#bg)"/>
+
+  <rect width="1200"
+        height="560"
+        rx="34"
+        fill="url(#dots)"/>
+
+  <rect x="3"
+        y="3"
+        width="1194"
+        height="554"
+        rx="31"
+        fill="none"
+        stroke="url(#aurora)"
+        stroke-width="3"/>
+
+
+  <!-- =====================================================
+       HEADER
+       ===================================================== -->
+
+  <text x="55"
+        y="62"
+        fill="#22d3ee"
+        font-family="monospace"
+        font-size="13"
+        letter-spacing="4">
+    SHAZ-06 // CONNECTION TERMINAL
+  </text>
+
+  <text x="55"
+        y="105"
+        fill="#f8fafc"
+        font-family="monospace"
+        font-size="31"
+        font-weight="700">
+    LET'S BUILD SOMETHING
+  </text>
+
+  <text x="55"
+        y="135"
+        fill="#64748b"
+        font-family="monospace"
+        font-size="12">
+    connect • collaborate • create • ship
+  </text>
+
+
+  <!-- =====================================================
+       CHARACTER PLATFORM
+       ===================================================== -->
+
+  <ellipse cx="260"
+           cy="488"
+           rx="170"
+           ry="22"
+           fill="#22d3ee"
+           opacity=".08"/>
+
+  <ellipse cx="260"
+           cy="482"
+           rx="120"
+           ry="10"
+           fill="#22d3ee"
+           opacity=".12"/>
+
+
+  <!-- =====================================================
+       VECTOR DEVELOPER CHARACTER
+       ===================================================== -->
+
+  <g>
+
+    <!-- subtle floating animation -->
+    <animateTransform
+      attributeName="transform"
+      type="translate"
+      values="0 4;0 -5;0 4"
+      dur="3s"
+      repeatCount="indefinite"/>
+
+
+    <!-- shadow -->
+    <ellipse cx="260"
+             cy="472"
+             rx="72"
+             ry="12"
+             fill="#000"
+             opacity=".35"/>
+
+
+    <!-- legs -->
+
+    <path d="M225 410
+             L214 466
+             L244 466
+             L259 418
+             L274 466
+             L304 466
+             L291 405 Z"
+          fill="#172033"
+          stroke="#334155"
+          stroke-width="2"/>
+
+
+    <!-- shoes -->
+
+    <path d="M211 461
+             Q201 470 211 478
+             L250 478
+             L250 465
+             L232 460 Z"
+          fill="#0b1220"/>
+
+    <path d="M273 465
+             L273 478
+             L314 478
+             Q322 470 312 464
+             L295 460 Z"
+          fill="#0b1220"/>
+
+
+    <!-- hoodie body -->
+
+    <path d="M211 290
+             Q259 270 305 300
+             L318 414
+             Q287 435 250 427
+             Q216 432 192 410
+             Z"
+          fill="url(#hoodie)"
+          stroke="#94a3b8"
+          stroke-width="2"/>
+
+
+    <!-- hoodie inner shirt -->
+
+    <path d="M238 295
+             L260 335
+             L283 295
+             L277 416
+             L243 416 Z"
+          fill="#f59e0b"/>
+
+
+    <!-- hoodie zipper -->
+
+    <line x1="260"
+          y1="329"
+          x2="260"
+          y2="418"
+          stroke="#94a3b8"
+          stroke-width="2"/>
+
+
+    <!-- left arm -->
+
+    <path d="M211 307
+             Q184 320 178 357
+             L194 399
+             Q203 406 212 398
+             L204 358
+             L231 334 Z"
+          fill="url(#hoodie)"
+          stroke="#94a3b8"
+          stroke-width="2"/>
+
+
+    <!-- pointing arm -->
+
+    <path d="M301 310
+             Q327 318 342 344
+             L395 317
+             L405 330
+             L347 369
+             Q326 375 308 352
+             L285 335 Z"
+          fill="url(#hoodie)"
+          stroke="#94a3b8"
+          stroke-width="2"/>
+
+
+    <!-- hand -->
+
+    <path d="M390 316
+             L416 306
+             Q426 307 429 314
+             L421 319
+             L437 320
+             Q443 323 439 328
+             L414 330
+             L402 326 Z"
+          fill="#d6a77a"
+          stroke="#a87552"
+          stroke-width="1.5"/>
+
+
+    <!-- neck -->
+
+    <rect x="243"
+          y="263"
+          width="34"
+          height="38"
+          rx="12"
+          fill="#d6a77a"/>
+
+
+    <!-- head -->
+
+    <ellipse cx="260"
+             cy="238"
+             rx="55"
+             ry="64"
+             fill="#d6a77a"
+             stroke="#a87552"
+             stroke-width="2"/>
+
+
+    <!-- hair -->
+
+    <path d="M207 239
+             Q201 181 248 168
+             Q302 166 316 218
+             Q305 205 287 209
+             Q270 184 250 199
+             Q229 191 207 239 Z"
+          fill="#17131a"/>
+
+
+    <!-- hair highlights -->
+
+    <path d="M220 205
+             Q239 180 259 184
+             M269 182
+             Q294 190 302 211"
+          fill="none"
+          stroke="#3f3543"
+          stroke-width="5"
+          stroke-linecap="round"/>
+
+
+    <!-- glasses -->
+
+    <rect x="216"
+          y="228"
+          width="35"
+          height="21"
+          rx="8"
+          fill="#0b1220"
+          stroke="#22d3ee"
+          stroke-width="2"/>
+
+    <rect x="270"
+          y="228"
+          width="35"
+          height="21"
+          rx="8"
+          fill="#0b1220"
+          stroke="#22d3ee"
+          stroke-width="2"/>
+
+    <line x1="251"
+          y1="237"
+          x2="270"
+          y2="237"
+          stroke="#22d3ee"
+          stroke-width="2"/>
+
+
+    <!-- smile -->
+
+    <path d="M245 263
+             Q260 274 276 262"
+          fill="none"
+          stroke="#7c4a36"
+          stroke-width="2"
+          stroke-linecap="round"/>
+
+
+    <!-- floating sparkles -->
+
+    <g fill="#22d3ee"
+       filter="url(#glow)">
+
+      <circle cx="145"
+              cy="245"
+              r="3">
+
+        <animate attributeName="opacity"
+                 values="1;.1;1"
+                 dur="1.5s"
+                 repeatCount="indefinite"/>
+
+      </circle>
+
+      <circle cx="365"
+              cy="200"
+              r="3">
+
+        <animate attributeName="opacity"
+                 values=".1;1;.1"
+                 dur="1.8s"
+                 repeatCount="indefinite"/>
+
+      </circle>
+
+      <circle cx="410"
+              cy="270"
+              r="2">
+
+        <animate attributeName="opacity"
+                 values="1;.1;1"
+                 dur="2s"
+                 repeatCount="indefinite"/>
+
+      </circle>
+
+    </g>
+
+  </g>
+
+
+  <!-- =====================================================
+       POINTING ARROW
+       ===================================================== -->
+
+  <g>
+
+    <path d="M435 315
+             C490 290 520 270 565 248"
+          fill="none"
+          stroke="#22d3ee"
+          stroke-width="2"
+          stroke-dasharray="8 8">
+
+      <animate attributeName="stroke-dashoffset"
+               values="0;-32"
+               dur="1s"
+               repeatCount="indefinite"/>
+
+    </path>
+
+    <path d="M554 240
+             L572 245
+             L560 258"
+          fill="none"
+          stroke="#22d3ee"
+          stroke-width="3"
+          stroke-linecap="round"
+          stroke-linejoin="round">
+
+      <animateTransform
+        attributeName="transform"
+        type="translate"
+        values="0 0;5 0;0 0"
+        dur="1.2s"
+        repeatCount="indefinite"/>
+
+    </path>
+
+  </g>
+
+
+  <!-- =====================================================
+       CONNECTION CARDS
+       ===================================================== -->
+
+  <!-- GitHub -->
+
+  <g>
+
+    <rect x="610"
+          y="175"
+          width="490"
+          height="82"
+          rx="18"
+          fill="#101827"
+          stroke="#22d3ee"
+          stroke-opacity=".55"/>
+
+    <circle cx="655"
+            cy="216"
+            r="24"
+            fill="#0b1220"
+            stroke="#22d3ee"/>
+
+    <text x="655"
+          y="223"
+          text-anchor="middle"
+          fill="#22d3ee"
+          font-family="monospace"
+          font-size="16"
+          font-weight="700">
+      GH
+    </text>
+
+    <text x="695"
+          y="208"
+          fill="#f8fafc"
+          font-family="monospace"
+          font-size="15"
+          font-weight="700">
+      GITHUB
+    </text>
+
+    <text x="695"
+          y="230"
+          fill="#64748b"
+          font-family="monospace"
+          font-size="10">
+      github.com/shaz-06
+    </text>
+
+    <text x="1060"
+          y="222"
+          fill="#22d3ee"
+          font-family="monospace"
+          font-size="22">
+      →
+      <animateTransform
+        attributeName="transform"
+        type="translate"
+        values="0 0;6 0;0 0"
+        dur="1.2s"
+        repeatCount="indefinite"/>
+    </text>
+
+  </g>
+
+
+  <!-- Email -->
+
+  <g>
+
+    <rect x="610"
+          y="275"
+          width="490"
+          height="82"
+          rx="18"
+          fill="#101827"
+          stroke="#a78bfa"
+          stroke-opacity=".55"/>
+
+    <circle cx="655"
+            cy="316"
+            r="24"
+            fill="#0b1220"
+            stroke="#a78bfa"/>
+
+    <text x="655"
+          y="322"
+          text-anchor="middle"
+          fill="#a78bfa"
+          font-family="monospace"
+          font-size="13"
+          font-weight="700">
+      @
+    </text>
+
+    <text x="695"
+          y="308"
+          fill="#f8fafc"
+          font-family="monospace"
+          font-size="15"
+          font-weight="700">
+      EMAIL
+    </text>
+
+    <text x="695"
+          y="330"
+          fill="#64748b"
+          font-family="monospace"
+          font-size="10">
+      shashankshetty3219@gmail.com
+    </text>
+
+    <text x="1060"
+          y="322"
+          fill="#a78bfa"
+          font-family="monospace"
+          font-size="22">
+      →
+      <animateTransform
+        attributeName="transform"
+        type="translate"
+        values="0 0;6 0;0 0"
+        dur="1.3s"
+        repeatCount="indefinite"/>
+    </text>
+
+  </g>
+
+
+  <!-- Collaboration -->
+
+  <g>
+
+    <rect x="610"
+          y="375"
+          width="490"
+          height="82"
+          rx="18"
+          fill="#101827"
+          stroke="#f472b6"
+          stroke-opacity=".55"/>
+
+    <circle cx="655"
+            cy="416"
+            r="24"
+            fill="#0b1220"
+            stroke="#f472b6"/>
+
+    <text x="655"
+          y="422"
+          text-anchor="middle"
+          fill="#f472b6"
+          font-family="monospace"
+          font-size="13"
+          font-weight="700">
+      COLLAB
+    </text>
+
+    <text x="695"
+          y="408"
+          fill="#f8fafc"
+          font-family="monospace"
+          font-size="15"
+          font-weight="700">
+      BUILD TOGETHER
+    </text>
+
+    <text x="695"
+          y="430"
+          fill="#64748b"
+          font-family="monospace"
+          font-size="10">
+      ideas • products • startups • experiments
+    </text>
+
+    <text x="1060"
+          y="422"
+          fill="#f472b6"
+          font-family="monospace"
+          font-size="22">
+      →
+      <animateTransform
+        attributeName="transform"
+        type="translate"
+        values="0 0;6 0;0 0"
+        dur="1.4s"
+        repeatCount="indefinite"/>
+    </text>
+
+  </g>
+
+
+  <!-- =====================================================
+       STATUS
+       ===================================================== -->
+
+  <circle cx="610"
+          cy="505"
+          r="5"
+          fill="#22d3ee">
+
+    <animate attributeName="opacity"
+             values="1;.2;1"
+             dur="1.2s"
+             repeatCount="indefinite"/>
+
+  </circle>
+
+  <text x="625"
+        y="510"
+        fill="#64748b"
+        font-family="monospace"
+        font-size="10"
+        letter-spacing="2">
+    OPEN TO COLLABORATIONS
+  </text>
+
+  <text x="1095"
+        y="510"
+        text-anchor="end"
+        fill="#475569"
+        font-family="monospace"
+        font-size="10">
+    SHAZ-06 // ENDPOINT READY
+  </text>
+
+</svg>
