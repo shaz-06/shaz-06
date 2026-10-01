@@ -188,13 +188,13 @@ I like building products from the first idea all the way to deployment.
 Let's build something interesting.
 <a href="https://github.com/shaz-06">
 <strong>GitHub</strong>
-</a>
-
-  •  
+</a>     •  
 <a href="mailto:shashankshetty3219@gmail.com">
 <strong>Email</strong>
 </a>
 
+
+ 
 </div>
 
 # 🧠 Interests
