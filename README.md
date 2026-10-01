@@ -1,10 +1,337 @@
-Here are my character images [+ a 2-second video of me waving]. Build a complete animated GitHub profile README as self-contained SVG files. My details: name [Shashank Shetty], role [Full Stack Developer], GitHub [https://github.com/shaz-06/shaz-06/], email [shashankshetty3219@gmail.com], location [Bengaluru], company [CMR University], skills [C, C++, JavaScript, Python, Dart, Go, HTML5, CSS3, React, Node.js, Express.js, Flutter, FastAPI, Django, MongoDB, MySQL, PostgreSQL, SQLite, Supabase, Firebase, AWS, Azure, Google Cloud, Vercel, Render, Netlify, Git, GitHub, GitHub Actions, Docker, Postman, VS Code, Swagger], hobbies [Digital Art & Illustration • Content Creation & Vlogging • AI & Emerging Technologies • UI/UX Design • Software Development • Fitness].
-Style: dark "midnight glass" cards (#0d0el6 background) with an aurora accent ramp - cyan #22d3ee, violet #a78bfa, pink #f472b6. Embed a display font and a mono font as base64 woff2 so typography is identical everywhere. Every card: rounded corners, subtle dot texture, gradient hairline border.
-Build these files:
-1. hero.svg - extract every frame of my video, embed them as base64 JPEGs and switch them with SMIL so the clip plays inside the SVG on a short loop (about 4s: play once, hold the last frame ~1.4s, fade, repeat). Mask the video edges so it melts into the background. Frame it like a camera viewfinder: corner brackets that draw in, a blinking REC dot, a filename label and a scrubber bar synced to the loop. On the left: an "open to collabs" pill with a pulsing dot, a typed "Hi there, I'm", my name in a big animated gradient revealed by a rising mask, cycling role lines, a one-line pitch and a meta row (location, company, stars/repos) with small drawn icons.
-2. about-life.svg - two cards side by side. Left: an illustration inside a fake browser window with a URL bar and blinking cursor, plus three capability rows with icon tiles. Right: a carousel of my hobbies that slides and crossfades every 4s with Instagram-style segment progress bars, a caption per slide, and three "daily rings" that fill on loop.
-3. stack.svg - tech icons from the Simple Icons set riding three tilted elliptical orbits around a glowing core, plus a grouped chip grid (Frontend / Motion & 3D / Data / AI) where chip borders glow one after another. Make [two tools] small moons that orbit the [React] icon while it travels its own orbit, and keep enough clearance that the moons never overlap the core.
-4. id-dashboard.svg - a lanyard ID badge that drops in and swings with damped pendulum physics: strap with printed text, metal clasp, my portrait in a frame with a light travelling around it, gold chip, barcode, holographic foil sweep. Beside it a dashboard: KPI tiles whose numbers count up, a single-hue bar chart of my most-starred repos with values labelled, and a "now" panel.
-5. connect.svg - my pointing character on the left, link cards on the right with brand icons and nudging arrows.
-6. README.md wiring it all together, a projects table, and a workflow using yoshi389111/github-profile-3d-contrib so my contributions render as a 3D night-view city, refreshed daily.
-Rules that keep it working: only CSS + SMIL animation (GitHub strips JS); nothing loaded from the network - inline every font and image as base64 (PNG, not webP); give entrance animations fill-mode both and start SMIL timelines at Os with keyTimes for delays, so a renderer that ignores animation still shows the finished card; namespace ids when embedding other SVGs; add ?v=l cache-busting to every image link in the README; then render each file in a browser at several timestamps and check it before handing it over.
+<!-- =========================================================
+     SHAZ-06 • ANIMATED GITHUB PROFILE
+     ========================================================= -->
+
+<div align="center">
+
+<img src="./hero.svg?v=1" width="100%" alt="Shashank Shetty Developer Profile">
+
+<br>
+
+<strong>Full Stack Developer • AI Enthusiast • Builder • Creator</strong>
+
+<br><br>
+
+<a href="#about-me">About</a> •
+<a href="#tech-stack">Stack</a> •
+<a href="#projects">Projects</a> •
+<a href="#developer-dashboard">Dashboard</a> •
+<a href="#connect">Connect</a>
+
+</div>
+
+---
+
+# 👋 About Me
+
+<table>
+<tr>
+<td width="50%" valign="top">
+
+<img src="./about-life.svg?v=1"
+     width="100%"
+     alt="About and Life">
+
+</td>
+
+<td width="50%" valign="top">
+
+### 🚀 Who am I?
+
+I'm **Shashank Shetty**, a **Full Stack Developer** based in **Bengaluru**.
+
+I enjoy turning ideas into functional products, experimenting with emerging technologies, designing interfaces, and building projects that solve real-world problems.
+
+### Currently focused on
+
+- 💻 Full-stack application development
+- 🤖 AI-powered applications
+- 🎨 UI/UX and motion design
+- 🚀 Startup and product building
+- ☁️ Cloud technologies
+- 📱 Cross-platform development
+- 🎥 Content creation and vlogging
+
+### 🎨 Outside the code
+
+**Digital Art & Illustration** •
+**Content Creation & Vlogging** •
+**AI & Emerging Technologies** •
+**UI/UX Design** •
+**Software Development** •
+**Fitness**
+
+</td>
+</tr>
+</table>
+
+---
+
+# ⚡ Tech Stack
+
+<div align="center">
+
+<img src="./stack.svg?v=1"
+     width="100%"
+     alt="Animated Technology Stack">
+
+</div>
+
+### 💻 Languages
+
+`C` `C++` `JavaScript` `Python` `Dart` `Go`
+
+### 🎨 Frontend
+
+`HTML5` `CSS3` `React`
+
+### ⚙️ Backend
+
+`Node.js` `Express.js` `FastAPI` `Django`
+
+### 📱 Mobile
+
+`Flutter`
+
+### 🗄️ Databases
+
+`MongoDB` `MySQL` `PostgreSQL` `SQLite`
+
+### 🔥 Backend Platforms & Services
+
+`Supabase` `Firebase`
+
+### ☁️ Cloud & Deployment
+
+`AWS` `Azure` `Google Cloud` `Vercel` `Render` `Netlify`
+
+### 🛠️ Development Tools
+
+`Git` `GitHub` `GitHub Actions` `Docker` `Postman` `VS Code` `Swagger`
+
+---
+
+# 🛰️ Developer Dashboard
+
+<div align="center">
+
+<img src="./id-dashboard.svg?v=1"
+     width="100%"
+     alt="Developer ID Dashboard">
+
+</div>
+
+---
+
+# 🧩 Projects
+
+| Project | Description | Technologies |
+|---|---|---|
+| 🛒 **Buyto Instant** | Quick-commerce platform designed for students and hostel communities | React • Node.js • Express • MongoDB |
+| 🎓 **ScholarshipConnect AI** | AI-powered scholarship discovery, matching, eligibility and application assistant | React • Node.js • MongoDB • AI |
+| 💼 **CareerConnect AI** | AI-powered career and placement platform with job discovery, coding practice and mock tests | React • Node.js • MongoDB • AI |
+| 🏫 **FixMyCampus** | Campus-focused platform for reporting and managing student issues | React • Node.js • MongoDB |
+
+---
+
+# 🌃 Contribution City
+
+<div align="center">
+
+<img src="./profile-3d-contrib/profile-night-rainbow.svg?v=1"
+     width="100%"
+     alt="GitHub Contribution 3D Night City">
+
+<br>
+
+<sub>My GitHub activity visualized as a 3D night-view contribution city.</sub>
+
+</div>
+
+---
+
+# 🎯 What I'm Building
+
+<div align="center">
+
+### BUILDING
+
+**ideas → design → code → test → deploy → repeat**
+
+`SOFTWARE` • `AI` • `UI/UX` • `CLOUD` • `STARTUPS`
+
+</div>
+
+I like building products from the first idea all the way to deployment.🎨 Character Archive
+<div align="center">
+
+<img src="./assets/character-portrait.png?v=1"
+     width="280"
+     alt="Shashank Developer Character">
+    
+<img src="./assets/character-pointing.png?v=1"
+     width="280"
+     alt="Shashank Pointing Character">
+</div>
+
+🔗 Connect
+<div align="center">
+
+<img src="./connect.svg?v=1"
+     width="100%"
+     alt="Connect with Shashank">
+
+
+
+Let's build something interesting.
+<a href="https://github.com/shaz-06">
+<strong>GitHub</strong>
+</a>
+
+  •  
+<a href="mailto:shashankshetty3219@gmail.com">
+<strong>Email</strong>
+</a>
+
+</div>
+
+🧠 Interests
+<div align="center">
+
+Software Development •
+Artificial Intelligence •
+Emerging Technologies •
+UI/UX •
+Digital Art •
+Content Creation •
+Vlogging •
+Startups •
+Fitness
+</div>
+
+⚙️ Profile Architecture
+<div align="center">
+
+                         SHAZ-06
+                            │
+             ┌──────────────┼──────────────┐
+             │              │              │
+           HERO           ABOUT          STACK
+             │              │              │
+             ▼              ▼              ▼
+        hero.svg      about-life.svg    stack.svg
+             │
+             └──────────────┐
+                            │
+                            ▼
+                      ID DASHBOARD
+                            │
+                            ▼
+                    id-dashboard.svg
+                            │
+             ┌──────────────┴──────────────┐
+             │                             │
+          PROJECTS                       CONNECT
+             │                             │
+             ▼                             ▼
+       README content                 connect.svg
+             │
+             ▼
+       CONTRIBUTION CITY
+             │
+             ▼
+   github-profile-3d-contrib
+
+</div>
+
+🎬 Animation System
+<div align="center">
+
+                    SHAZ-06
+                       │
+          ┌────────────┴────────────┐
+          │                         │
+         SVG                       SMIL
+          │                         │
+          ├──────────┬──────────────┤
+          │          │              │
+       Gradients   Masks         Motion
+          │          │              │
+          └──────────┴──────────────┘
+                       │
+                       ▼
+                Animated Profile
+
+</div>
+
+Animation principles
+- No JavaScript
+- SVG + CSS + SMIL
+- Inline assets where required
+- No external fonts inside SVGs
+- No external images inside SVGs
+- Animated gradients
+- Pulsing indicators
+- Orbiting technology icons
+- Carousel transitions
+- Progress indicators
+- Dashboard counters
+- Viewfinder effects
+- Holographic effects
+- Damped badge movement
+🎨 Visual Language
+<div align="center">
+
+Element	Color
+Midnight Background	#0d1117
+Cyan Aurora	#22d3ee
+Violet Aurora	#a78bfa
+Pink Aurora	#f472b6
+
+
+</div>
+
+Design direction
+MIDNIGHT GLASS
+      │
+      ├── Rounded cards
+      ├── Gradient hairlines
+      ├── Subtle dot texture
+      ├── Aurora glow
+      ├── Glass panels
+      ├── Neon indicators
+      └── Futuristic interface
+
+👨‍💻 Developer
+<div align="center">
+
+<img src="./assets/character-pointing.png?v=1"
+     width="180"
+     alt="Shashank">
+
+
+
+Shashank Shetty
+Full Stack Developer • Builder • Creator
+
+📍 Bengaluru
+🏫 CMR University
+💻 Full Stack Development
+🤖 AI & Emerging Technologies  
+
+<a href="https://github.com/shaz-06">
+GitHub
+</a>
+
+  •  
+<a href="mailto:shashankshetty3219@gmail.com">
+Email
+</a>
+
+
+
+
+CODE • CREATE • EXPERIMENT • REPEAT
+
+✦ Thanks for visiting my profile ✦
+</div>
