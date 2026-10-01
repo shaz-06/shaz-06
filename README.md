@@ -324,18 +324,18 @@ Full Stack Developer • Builder • Creator
   •  
 <a href="https://github.com/shaz-06">
 GitHub
-</a>
-
- •  
+</a>   •  
 <a href="https://www.linkedin.com/in/shashank-shetty-070447336/">
 LinkedIn
-</a>
-
-  •  
+</a>    •  
 <a href="mailto:shashankshetty3219@gmail.com">
 Email
 </a>
 
+
+
+
+ 
 
 
 
