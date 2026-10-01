@@ -321,8 +321,14 @@ Full Stack Developer • Builder • Creator
 💻 Full Stack Development
 🤖 AI & Emerging Technologies  
 
+  •  
 <a href="https://github.com/shaz-06">
 GitHub
+</a>
+
+ •  
+<a href="https://www.linkedin.com/in/shashank-shetty-070447336/">
+LinkedIn
 </a>
 
   •  
