@@ -1,0 +1,109 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="500" viewBox="0 0 1200 500">
+  <rect width="1200" height="500" rx="30" fill="#0d1117"/>
+
+  <rect
+    x="3"
+    y="3"
+    width="1194"
+    height="494"
+    rx="27"
+    fill="none"
+    stroke="#22d3ee"
+    stroke-width="3"
+  />
+
+  <circle cx="75" cy="70" r="7" fill="#22d3ee">
+    <animate
+      attributeName="opacity"
+      values="1;0.2;1"
+      dur="1.5s"
+      repeatCount="indefinite"
+    />
+  </circle>
+
+  <text
+    x="95"
+    y="77"
+    fill="#dbeafe"
+    font-family="monospace"
+    font-size="18"
+  >OPEN TO COLLABS</text>
+
+  <text
+    x="70"
+    y="175"
+    fill="#94a3b8"
+    font-family="monospace"
+    font-size="24"
+  >Hi there, I'm</text>
+
+  <text
+    x="70"
+    y="235"
+    fill="#22d3ee"
+    font-family="monospace"
+    font-size="48"
+    font-weight="bold"
+  >SHASHANK SHETTY</text>
+
+  <text
+    x="70"
+    y="280"
+    fill="#ffffff"
+    font-family="monospace"
+    font-size="20"
+  >FULL-STACK DEVELOPER • AI ENTHUSIAST</text>
+
+  <rect
+    x="800"
+    y="75"
+    width="300"
+    height="300"
+    rx="30"
+    fill="#111827"
+    stroke="#a78bfa"
+    stroke-width="2"
+  />
+
+  <text
+    x="950"
+    y="215"
+    text-anchor="middle"
+    fill="#22d3ee"
+    font-family="monospace"
+    font-size="26"
+    font-weight="bold"
+  >SHAZ-06</text>
+
+  <text
+    x="950"
+    y="245"
+    text-anchor="middle"
+    fill="#64748b"
+    font-family="monospace"
+    font-size="13"
+  >DEVELOPER PROFILE</text>
+
+  <rect
+    x="70"
+    y="430"
+    width="1060"
+    height="2"
+    fill="#334155"
+  />
+
+  <rect
+    x="70"
+    y="430"
+    width="0"
+    height="2"
+    fill="#22d3ee"
+  >
+    <animate
+      attributeName="width"
+      values="0;1060;0"
+      dur="4s"
+      repeatCount="indefinite"
+    />
+  </rect>
+</svg>
