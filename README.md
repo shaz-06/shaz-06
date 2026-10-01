@@ -162,7 +162,9 @@ I enjoy turning ideas into functional products, experimenting with emerging tech
 
 </div>
 
-I like building products from the first idea all the way to deployment.🎨 Character Archive
+I like building products from the first idea all the way to deployment.
+
+# 🎨 Character Archive
 <div align="center">
 
 <img src="./assets/character-portrait.png?v=1"
@@ -174,7 +176,7 @@ I like building products from the first idea all the way to deployment.🎨 Char
      alt="Shashank Pointing Character">
 </div>
 
-🔗 Connect
+# 🔗 Connect
 <div align="center">
 
 <img src="./connect.svg?v=1"
@@ -195,7 +197,7 @@ Let's build something interesting.
 
 </div>
 
-🧠 Interests
+# 🧠 Interests
 <div align="center">
 
 Software Development •
@@ -209,7 +211,7 @@ Startups •
 Fitness
 </div>
 
-⚙️ Profile Architecture
+# ⚙️ Profile Architecture
 <div align="center">
 
                          SHAZ-06
@@ -244,7 +246,7 @@ Fitness
 
 </div>
 
-🎬 Animation System
+#🎬 Animation System
 <div align="center">
 
                     SHAZ-06
@@ -302,7 +304,7 @@ MIDNIGHT GLASS
       ├── Neon indicators
       └── Futuristic interface
 
-👨‍💻 Developer
+# 👨‍💻 Developer
 <div align="center">
 
 <img src="./assets/character-pointing.png?v=1"
