@@ -1,0 +1,644 @@
+<svg xmlns="http://www.w3.org/2000/svg"
+     width="1200"
+     height="560"
+     viewBox="0 0 1200 560">
+
+  <defs>
+
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0d1117"/>
+      <stop offset="0.5" stop-color="#111827"/>
+      <stop offset="1" stop-color="#0d1117"/>
+    </linearGradient>
+
+    <linearGradient id="aurora" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#22d3ee"/>
+      <stop offset="0.5" stop-color="#a78bfa"/>
+      <stop offset="1" stop-color="#f472b6"/>
+    </linearGradient>
+
+    <linearGradient id="screen" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#101827"/>
+      <stop offset="1" stop-color="#0b1220"/>
+    </linearGradient>
+
+    <pattern id="dots" width="18" height="18" patternUnits="userSpaceOnUse">
+      <circle cx="2" cy="2" r="1" fill="#64748b" opacity="0.16"/>
+    </pattern>
+
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="5" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+
+    <clipPath id="leftClip">
+      <rect x="30" y="30" width="555" height="500" rx="28"/>
+    </clipPath>
+
+    <clipPath id="rightClip">
+      <rect x="615" y="30" width="555" height="500" rx="28"/>
+    </clipPath>
+
+  </defs>
+
+  <!-- BACKGROUND -->
+
+  <rect width="1200" height="560" rx="32" fill="url(#bg)"/>
+
+  <rect width="1200" height="560" rx="32"
+        fill="url(#dots)"/>
+
+  <!-- LEFT CARD -->
+
+  <rect x="30" y="30"
+        width="555"
+        height="500"
+        rx="28"
+        fill="#0f1724"
+        stroke="url(#aurora)"
+        stroke-width="2"/>
+
+  <!-- browser -->
+
+  <rect x="58" y="65"
+        width="499"
+        height="285"
+        rx="18"
+        fill="#080d15"
+        stroke="#334155"
+        stroke-width="2"/>
+
+  <!-- browser top -->
+
+  <rect x="58" y="65"
+        width="499"
+        height="48"
+        rx="18"
+        fill="#131c2b"/>
+
+  <circle cx="82" cy="89" r="6" fill="#f472b6"/>
+  <circle cx="102" cy="89" r="6" fill="#f59e0b"/>
+  <circle cx="122" cy="89" r="6" fill="#22d3ee"/>
+
+  <rect x="160" y="77"
+        width="330"
+        height="24"
+        rx="12"
+        fill="#0b1220"
+        stroke="#334155"/>
+
+  <text x="180" y="94"
+        fill="#64748b"
+        font-family="monospace"
+        font-size="11">
+    shaz-06.dev/building
+  </text>
+
+  <!-- browser content -->
+
+  <rect x="78" y="130"
+        width="459"
+        height="195"
+        rx="12"
+        fill="url(#screen)"/>
+
+  <!-- fake code -->
+
+  <text x="98" y="160"
+        fill="#22d3ee"
+        font-family="monospace"
+        font-size="13">
+    &lt;developer&gt;
+  </text>
+
+  <text x="112" y="187"
+        fill="#a78bfa"
+        font-family="monospace"
+        font-size="13">
+    &lt;name&gt;Shashank Shetty&lt;/name&gt;
+  </text>
+
+  <text x="112" y="214"
+        fill="#f472b6"
+        font-family="monospace"
+        font-size="13">
+    &lt;role&gt;Full Stack Developer&lt;/role&gt;
+  </text>
+
+  <text x="112" y="241"
+        fill="#94a3b8"
+        font-family="monospace"
+        font-size="13">
+    &lt;location&gt;Bengaluru&lt;/location&gt;
+  </text>
+
+  <text x="98" y="275"
+        fill="#22d3ee"
+        font-family="monospace"
+        font-size="13">
+    &lt;/developer&gt;
+  </text>
+
+  <!-- blinking cursor -->
+
+  <rect x="98" y="292"
+        width="8"
+        height="16"
+        fill="#22d3ee">
+
+    <animate
+      attributeName="opacity"
+      values="1;0;1"
+      dur="1s"
+      repeatCount="indefinite"/>
+  </rect>
+
+  <!-- browser progress -->
+
+  <rect x="78" y="335"
+        width="459"
+        height="2"
+        fill="#1e293b"/>
+
+  <rect x="78" y="335"
+        width="0"
+        height="2"
+        fill="#22d3ee">
+
+    <animate
+      attributeName="width"
+      values="0;459;0"
+      dur="5s"
+      repeatCount="indefinite"/>
+
+  </rect>
+
+  <!-- capability rows -->
+
+  <text x="62" y="390"
+        fill="#e2e8f0"
+        font-family="monospace"
+        font-size="17"
+        font-weight="bold">
+    CAPABILITIES
+  </text>
+
+  <!-- row 1 -->
+
+  <rect x="62" y="410"
+        width="155"
+        height="72"
+        rx="14"
+        fill="#111c2d"
+        stroke="#334155"/>
+
+  <circle cx="88" cy="446" r="17"
+          fill="#22d3ee"
+          opacity="0.15"/>
+
+  <text x="88" y="452"
+        text-anchor="middle"
+        fill="#22d3ee"
+        font-family="monospace"
+        font-size="17">
+    &lt;/&gt;
+  </text>
+
+  <text x="116" y="440"
+        fill="#f8fafc"
+        font-family="monospace"
+        font-size="11">
+    BUILD
+  </text>
+
+  <text x="116" y="457"
+        fill="#64748b"
+        font-family="monospace"
+        font-size="9">
+    Full Stack
+  </text>
+
+  <!-- row 2 -->
+
+  <rect x="230" y="410"
+        width="155"
+        height="72"
+        rx="14"
+        fill="#111c2d"
+        stroke="#334155"/>
+
+  <circle cx="256" cy="446" r="17"
+          fill="#a78bfa"
+          opacity="0.15"/>
+
+  <text x="256" y="452"
+        text-anchor="middle"
+        fill="#a78bfa"
+        font-family="monospace"
+        font-size="17">
+    AI
+  </text>
+
+  <text x="284" y="440"
+        fill="#f8fafc"
+        font-family="monospace"
+        font-size="11">
+    EXPLORE
+  </text>
+
+  <text x="284" y="457"
+        fill="#64748b"
+        font-family="monospace"
+        font-size="9">
+    Emerging Tech
+  </text>
+
+  <!-- row 3 -->
+
+  <rect x="398" y="410"
+        width="155"
+        height="72"
+        rx="14"
+        fill="#111c2d"
+        stroke="#334155"/>
+
+  <circle cx="424" cy="446" r="17"
+          fill="#f472b6"
+          opacity="0.15"/>
+
+  <text x="424" y="452"
+        text-anchor="middle"
+        fill="#f472b6"
+        font-family="monospace"
+        font-size="17">
+    UI
+  </text>
+
+  <text x="452" y="440"
+        fill="#f8fafc"
+        font-family="monospace"
+        font-size="11">
+    DESIGN
+  </text>
+
+  <text x="452" y="457"
+        fill="#64748b"
+        font-family="monospace"
+        font-size="9">
+    UI / UX
+  </text>
+
+
+  <!-- RIGHT CARD -->
+
+  <rect x="615" y="30"
+        width="555"
+        height="500"
+        rx="28"
+        fill="#0f1724"
+        stroke="url(#aurora)"
+        stroke-width="2"/>
+
+  <text x="650" y="80"
+        fill="#e2e8f0"
+        font-family="monospace"
+        font-size="18"
+        font-weight="bold">
+    LIFE / INTERESTS
+  </text>
+
+  <text x="650" y="105"
+        fill="#64748b"
+        font-family="monospace"
+        font-size="10">
+    THINGS I LIKE TO BUILD &amp; EXPLORE
+  </text>
+
+  <!-- segment progress -->
+
+  <rect x="650" y="125"
+        width="485"
+        height="4"
+        rx="2"
+        fill="#1e293b"/>
+
+  <rect x="650" y="125"
+        width="0"
+        height="4"
+        rx="2"
+        fill="#22d3ee">
+
+    <animate
+      attributeName="width"
+      values="0;485"
+      dur="4s"
+      repeatCount="indefinite"/>
+
+  </rect>
+
+  <!-- carousel slide 1 -->
+
+  <g opacity="1">
+
+    <rect x="650" y="155"
+          width="485"
+          height="135"
+          rx="20"
+          fill="#111c2d"
+          stroke="#334155"/>
+
+    <circle cx="705" cy="222"
+            r="40"
+            fill="#22d3ee"
+            opacity="0.12"/>
+
+    <text x="705" y="230"
+          text-anchor="middle"
+          fill="#22d3ee"
+          font-family="monospace"
+          font-size="27">
+      &lt;/&gt;
+    </text>
+
+    <text x="770" y="205"
+          fill="#f8fafc"
+          font-family="monospace"
+          font-size="18"
+          font-weight="bold">
+      SOFTWARE
+    </text>
+
+    <text x="770" y="230"
+          fill="#94a3b8"
+          font-family="monospace"
+          font-size="11">
+      Turning ideas into
+    </text>
+
+    <text x="770" y="249"
+          fill="#94a3b8"
+          font-family="monospace"
+          font-size="11">
+      working products.
+    </text>
+
+    <animate
+      attributeName="opacity"
+      values="1;1;0;0;1"
+      keyTimes="0;0.35;0.45;0.9;1"
+      dur="12s"
+      repeatCount="indefinite"/>
+
+  </g>
+
+  <!-- carousel slide 2 -->
+
+  <g opacity="0">
+
+    <rect x="650" y="155"
+          width="485"
+          height="135"
+          rx="20"
+          fill="#111c2d"
+          stroke="#334155"/>
+
+    <circle cx="705" cy="222"
+            r="40"
+            fill="#a78bfa"
+            opacity="0.12"/>
+
+    <text x="705" y="230"
+          text-anchor="middle"
+          fill="#a78bfa"
+          font-family="monospace"
+          font-size="25">
+      AI
+    </text>
+
+    <text x="770" y="205"
+          fill="#f8fafc"
+          font-family="monospace"
+          font-size="18"
+          font-weight="bold">
+      AI / EMERGING TECH
+    </text>
+
+    <text x="770" y="230"
+          fill="#94a3b8"
+          font-family="monospace"
+          font-size="11">
+      Exploring intelligent
+    </text>
+
+    <text x="770" y="249"
+          fill="#94a3b8"
+          font-family="monospace"
+          font-size="11">
+      ways to build better.
+    </text>
+
+    <animate
+      attributeName="opacity"
+      values="0;0;1;1;0"
+      keyTimes="0;0.35;0.45;0.8;1"
+      dur="12s"
+      repeatCount="indefinite"/>
+
+  </g>
+
+  <!-- carousel slide 3 -->
+
+  <g opacity="0">
+
+    <rect x="650" y="155"
+          width="485"
+          height="135"
+          rx="20"
+          fill="#111c2d"
+          stroke="#334155"/>
+
+    <circle cx="705" cy="222"
+            r="40"
+            fill="#f472b6"
+            opacity="0.12"/>
+
+    <text x="705" y="230"
+          text-anchor="middle"
+          fill="#f472b6"
+          font-family="monospace"
+          font-size="23">
+      ART
+    </text>
+
+    <text x="770" y="205"
+          fill="#f8fafc"
+          font-family="monospace"
+          font-size="18"
+          font-weight="bold">
+      DIGITAL ART
+    </text>
+
+    <text x="770" y="230"
+          fill="#94a3b8"
+          font-family="monospace"
+          font-size="11">
+      Designing interfaces,
+    </text>
+
+    <text x="770" y="249"
+          fill="#94a3b8"
+          font-family="monospace"
+          font-size="11">
+      illustrations and visuals.
+    </text>
+
+    <animate
+      attributeName="opacity"
+      values="0;0;0;1;1;0"
+      keyTimes="0;0.65;0.7;0.75;0.9;1"
+      dur="12s"
+      repeatCount="indefinite"/>
+
+  </g>
+
+  <!-- caption -->
+
+  <text x="650" y="325"
+        fill="#64748b"
+        font-family="monospace"
+        font-size="10">
+    DAILY INTEREST RINGS
+  </text>
+
+  <!-- rings -->
+
+  <circle cx="710" cy="390"
+          r="42"
+          fill="none"
+          stroke="#1e293b"
+          stroke-width="10"/>
+
+  <circle cx="710" cy="390"
+          r="42"
+          fill="none"
+          stroke="#22d3ee"
+          stroke-width="10"
+          stroke-linecap="round"
+          stroke-dasharray="264"
+          stroke-dashoffset="264"
+          transform="rotate(-90 710 390)">
+
+    <animate
+      attributeName="stroke-dashoffset"
+      values="264;70;264"
+      dur="4s"
+      repeatCount="indefinite"/>
+
+  </circle>
+
+  <text x="710" y="396"
+        text-anchor="middle"
+        fill="#e2e8f0"
+        font-family="monospace"
+        font-size="12">
+    CODE
+  </text>
+
+
+  <circle cx="825" cy="390"
+          r="42"
+          fill="none"
+          stroke="#1e293b"
+          stroke-width="10"/>
+
+  <circle cx="825" cy="390"
+          r="42"
+          fill="none"
+          stroke="#a78bfa"
+          stroke-width="10"
+          stroke-linecap="round"
+          stroke-dasharray="264"
+          stroke-dashoffset="264"
+          transform="rotate(-90 825 390)">
+
+    <animate
+      attributeName="stroke-dashoffset"
+      values="264;110;264"
+      dur="4s"
+      repeatCount="indefinite"/>
+
+  </circle>
+
+  <text x="825" y="396"
+        text-anchor="middle"
+        fill="#e2e8f0"
+        font-family="monospace"
+        font-size="12">
+    CREATE
+  </text>
+
+
+  <circle cx="940" cy="390"
+          r="42"
+          fill="none"
+          stroke="#1e293b"
+          stroke-width="10"/>
+
+  <circle cx="940" cy="390"
+          r="42"
+          fill="none"
+          stroke="#f472b6"
+          stroke-width="10"
+          stroke-linecap="round"
+          stroke-dasharray="264"
+          stroke-dashoffset="264"
+          transform="rotate(-90 940 390)">
+
+    <animate
+      attributeName="stroke-dashoffset"
+      values="264;150;264"
+      dur="4s"
+      repeatCount="indefinite"/>
+
+  </circle>
+
+  <text x="940" y="396"
+        text-anchor="middle"
+        fill="#e2e8f0"
+        font-family="monospace"
+        font-size="12">
+    EXPLORE
+  </text>
+
+  <!-- bottom status -->
+
+  <rect x="650" y="465"
+        width="485"
+        height="38"
+        rx="19"
+        fill="#0b1220"
+        stroke="#263449"/>
+
+  <circle cx="675" cy="484"
+          r="5"
+          fill="#22d3ee">
+
+    <animate
+      attributeName="opacity"
+      values="1;0.25;1"
+      dur="1.4s"
+      repeatCount="indefinite"/>
+
+  </circle>
+
+  <text x="690" y="489"
+        fill="#94a3b8"
+        font-family="monospace"
+        font-size="10">
+    ALWAYS LEARNING • ALWAYS BUILDING
+  </text>
+
+</svg>
