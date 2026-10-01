@@ -1,0 +1,854 @@
+<svg xmlns="http://www.w3.org/2000/svg"
+     width="1200"
+     height="680"
+     viewBox="0 0 1200 680">
+
+  <defs>
+
+    <!-- Background -->
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#080b14"/>
+      <stop offset="0.5" stop-color="#0d1117"/>
+      <stop offset="1" stop-color="#151126"/>
+    </linearGradient>
+
+    <!-- Aurora -->
+    <linearGradient id="aurora" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#22d3ee"/>
+      <stop offset="0.5" stop-color="#a78bfa"/>
+      <stop offset="1" stop-color="#f472b6"/>
+    </linearGradient>
+
+    <!-- Gold -->
+    <linearGradient id="gold" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#fef3c7"/>
+      <stop offset="0.35" stop-color="#fbbf24"/>
+      <stop offset="0.7" stop-color="#d97706"/>
+      <stop offset="1" stop-color="#fef3c7"/>
+    </linearGradient>
+
+    <!-- Glass -->
+    <linearGradient id="glass" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#172033"/>
+      <stop offset="1" stop-color="#0d1420"/>
+    </linearGradient>
+
+    <!-- Glow -->
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="5" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+
+    <!-- Small dot texture -->
+    <pattern id="dots"
+             width="20"
+             height="20"
+             patternUnits="userSpaceOnUse">
+      <circle cx="2" cy="2" r="1"
+              fill="#64748b"
+              opacity="0.14"/>
+    </pattern>
+
+    <!-- Badge clip -->
+    <clipPath id="portraitClip">
+      <rect x="85" y="240"
+            width="230"
+            height="190"
+            rx="18"/>
+    </clipPath>
+
+  </defs>
+
+
+  <!-- =====================================================
+       BACKGROUND
+       ===================================================== -->
+
+  <rect width="1200"
+        height="680"
+        rx="34"
+        fill="url(#bg)"/>
+
+  <rect width="1200"
+        height="680"
+        rx="34"
+        fill="url(#dots)"/>
+
+  <rect x="3"
+        y="3"
+        width="1194"
+        height="674"
+        rx="31"
+        fill="none"
+        stroke="url(#aurora)"
+        stroke-width="3"/>
+
+
+  <!-- =====================================================
+       HEADER
+       ===================================================== -->
+
+  <text x="55"
+        y="58"
+        fill="#22d3ee"
+        font-family="monospace"
+        font-size="13"
+        letter-spacing="4">
+    SHAZ-06 // DEVELOPER IDENTIFICATION SYSTEM
+  </text>
+
+  <text x="55"
+        y="94"
+        fill="#f8fafc"
+        font-family="monospace"
+        font-size="30"
+        font-weight="700">
+    ID DASHBOARD
+  </text>
+
+  <text x="55"
+        y="120"
+        fill="#64748b"
+        font-family="monospace"
+        font-size="12">
+    DIGITAL IDENTITY • BUILD METRICS • CURRENT STATUS
+  </text>
+
+
+  <!-- =====================================================
+       LANYARD
+       ===================================================== -->
+
+  <g>
+
+    <!-- strap -->
+    <path d="M175 0
+             L175 150
+             Q175 180 205 195
+             L205 220"
+          fill="none"
+          stroke="#111827"
+          stroke-width="34"/>
+
+    <path d="M175 0
+             L175 150
+             Q175 180 205 195
+             L205 220"
+          fill="none"
+          stroke="url(#aurora)"
+          stroke-width="2"/>
+
+    <text x="175"
+          y="110"
+          transform="rotate(90 175 110)"
+          fill="#94a3b8"
+          font-family="monospace"
+          font-size="9"
+          letter-spacing="2">
+      SHAZ-06 • FULL STACK •
+    </text>
+
+    <!-- clasp -->
+    <rect x="188"
+          y="210"
+          width="34"
+          height="35"
+          rx="7"
+          fill="#334155"
+          stroke="#94a3b8"/>
+
+    <rect x="195"
+          y="235"
+          width="20"
+          height="22"
+          rx="4"
+          fill="url(#gold)"
+          stroke="#fef3c7"/>
+
+  </g>
+
+
+  <!-- =====================================================
+       ID CARD
+       ===================================================== -->
+
+  <g>
+
+    <!-- damped swing -->
+    <animateTransform
+      attributeName="transform"
+      type="rotate"
+      values="-2 205 245;
+              3 205 245;
+              -1.5 205 245;
+              1 205 245;
+              0 205 245"
+      dur="3s"
+      repeatCount="indefinite"/>
+
+    <rect x="45"
+          y="245"
+          width="350"
+          height="365"
+          rx="28"
+          fill="url(#glass)"
+          stroke="url(#aurora)"
+          stroke-width="2"/>
+
+    <!-- card highlight -->
+    <rect x="46"
+          y="246"
+          width="348"
+          height="363"
+          rx="27"
+          fill="none"
+          stroke="#ffffff"
+          stroke-opacity="0.08"/>
+
+
+    <!-- portrait window -->
+    <rect x="75"
+          y="230"
+          width="250"
+          height="215"
+          rx="22"
+          fill="#080b14"
+          stroke="#22d3ee"
+          stroke-width="2"/>
+
+    <!-- portrait placeholder -->
+    <rect x="85"
+          y="240"
+          width="230"
+          height="190"
+          rx="18"
+          fill="#111827"/>
+
+    <circle cx="200"
+            cy="302"
+            r="42"
+            fill="#172033"
+            stroke="#a78bfa"
+            stroke-width="2"/>
+
+    <!-- simple character -->
+    <circle cx="200"
+            cy="292"
+            r="22"
+            fill="#d6a77a"/>
+
+    <path d="M178 290
+             Q182 260 202 264
+             Q224 267 223 294
+             Q215 280 201 280
+             Q187 280 178 290"
+          fill="#17131a"/>
+
+    <path d="M158 390
+             Q164 335 200 332
+             Q236 335 242 390
+             Z"
+          fill="#f8fafc"/>
+
+    <path d="M181 347
+             L200 375
+             L219 347"
+          fill="#f59e0b"/>
+
+
+    <!-- travelling frame light -->
+
+    <rect x="75"
+          y="230"
+          width="250"
+          height="215"
+          rx="22"
+          fill="none"
+          stroke="#22d3ee"
+          stroke-width="4"
+          stroke-dasharray="35 930"
+          stroke-linecap="round">
+
+      <animate attributeName="stroke-dashoffset"
+               values="0;-965"
+               dur="3s"
+               repeatCount="indefinite"/>
+
+    </rect>
+
+
+    <!-- name -->
+
+    <text x="75"
+          y="480"
+          fill="#22d3ee"
+          font-family="monospace"
+          font-size="12"
+          letter-spacing="2">
+      DEVELOPER ID
+    </text>
+
+    <text x="75"
+          y="515"
+          fill="#f8fafc"
+          font-family="monospace"
+          font-size="25"
+          font-weight="700">
+      SHASHANK SHETTY
+    </text>
+
+    <text x="75"
+          y="542"
+          fill="#a78bfa"
+          font-family="monospace"
+          font-size="13">
+      FULL STACK DEVELOPER
+    </text>
+
+    <text x="75"
+          y="567"
+          fill="#64748b"
+          font-family="monospace"
+          font-size="11">
+      BENGALURU • CMR UNIVERSITY
+    </text>
+
+
+    <!-- gold chip -->
+
+    <rect x="300"
+          y="485"
+          width="55"
+          height="42"
+          rx="8"
+          fill="url(#gold)"
+          stroke="#fef3c7"/>
+
+    <path d="M310 496 H345
+             M310 507 H345
+             M322 487 V525
+             M334 487 V525"
+          stroke="#92400e"
+          stroke-width="2"/>
+
+
+    <!-- barcode -->
+
+    <g transform="translate(75 580)"
+       fill="#cbd5e1">
+
+      <rect width="2" height="20"/>
+      <rect x="5" width="4" height="20"/>
+      <rect x="13" width="2" height="20"/>
+      <rect x="18" width="6" height="20"/>
+      <rect x="28" width="2" height="20"/>
+      <rect x="34" width="4" height="20"/>
+      <rect x="42" width="2" height="20"/>
+      <rect x="48" width="6" height="20"/>
+      <rect x="58" width="2" height="20"/>
+      <rect x="64" width="4" height="20"/>
+      <rect x="72" width="2" height="20"/>
+      <rect x="78" width="6" height="20"/>
+
+    </g>
+
+    <text x="170"
+          y="595"
+          fill="#475569"
+          font-family="monospace"
+          font-size="8">
+      ID: SHAZ-06
+    </text>
+
+  </g>
+
+
+  <!-- =====================================================
+       DASHBOARD
+       ===================================================== -->
+
+  <g transform="translate(440 155)">
+
+    <text x="0"
+          y="0"
+          fill="#94a3b8"
+          font-family="monospace"
+          font-size="12"
+          letter-spacing="2">
+      LIVE DEVELOPER METRICS
+    </text>
+
+
+    <!-- KPI 1 -->
+
+    <rect x="0"
+          y="25"
+          width="210"
+          height="105"
+          rx="18"
+          fill="#101827"
+          stroke="#22d3ee"
+          stroke-opacity="0.5"/>
+
+    <text x="20"
+          y="52"
+          fill="#64748b"
+          font-family="monospace"
+          font-size="10">
+      PROJECTS
+    </text>
+
+    <text x="20"
+          y="94"
+          fill="#22d3ee"
+          font-family="monospace"
+          font-size="34"
+          font-weight="700">
+
+      04
+
+      <animate attributeName="opacity"
+               values=".4;1"
+               dur="1.5s"
+               repeatCount="indefinite"/>
+
+    </text>
+
+    <text x="20"
+          y="114"
+          fill="#475569"
+          font-family="monospace"
+          font-size="9">
+      ACTIVE BUILDS
+    </text>
+
+
+    <!-- KPI 2 -->
+
+    <rect x="230"
+          y="25"
+          width="210"
+          height="105"
+          rx="18"
+          fill="#101827"
+          stroke="#a78bfa"
+          stroke-opacity="0.5"/>
+
+    <text x="250"
+          y="52"
+          fill="#64748b"
+          font-family="monospace"
+          font-size="10">
+      TECH STACK
+    </text>
+
+    <text x="250"
+          y="94"
+          fill="#a78bfa"
+          font-family="monospace"
+          font-size="34"
+          font-weight="700">
+      35
+
+      <animate attributeName="opacity"
+               values=".4;1"
+               dur="1.8s"
+               repeatCount="indefinite"/>
+
+    </text>
+
+    <text x="250"
+          y="114"
+          fill="#475569"
+          font-family="monospace"
+          font-size="9">
+      TOOLS &amp; TECHNOLOGIES
+    </text>
+
+
+    <!-- KPI 3 -->
+
+    <rect x="460"
+          y="25"
+          width="210"
+          height="105"
+          rx="18"
+          fill="#101827"
+          stroke="#f472b6"
+          stroke-opacity="0.5"/>
+
+    <text x="480"
+          y="52"
+          fill="#64748b"
+          font-family="monospace"
+          font-size="10">
+      STATUS
+    </text>
+
+    <text x="480"
+          y="94"
+          fill="#f472b6"
+          font-family="monospace"
+          font-size="25"
+          font-weight="700">
+      BUILDING
+    </text>
+
+    <circle cx="640"
+            cy="52"
+            r="5"
+            fill="#22d3ee">
+
+      <animate attributeName="opacity"
+               values="1;.2;1"
+               dur="1s"
+               repeatCount="indefinite"/>
+
+    </circle>
+
+
+    <!-- =================================================
+         REPOSITORY CHART
+         ================================================= -->
+
+    <text x="0"
+          y="170"
+          fill="#f8fafc"
+          font-family="monospace"
+          font-size="16"
+          font-weight="700">
+      MOST-STARRED PROJECTS
+    </text>
+
+    <!-- chart background -->
+
+    <rect x="0"
+          y="190"
+          width="440"
+          height="245"
+          rx="18"
+          fill="#0c131f"
+          stroke="#334155"/>
+
+
+    <!-- Buyto -->
+
+    <text x="20"
+          y="225"
+          fill="#cbd5e1"
+          font-family="monospace"
+          font-size="11">
+      BUYTO INSTANT
+    </text>
+
+    <rect x="20"
+          y="235"
+          width="310"
+          height="18"
+          rx="9"
+          fill="#172033"/>
+
+    <rect x="20"
+          y="235"
+          width="260"
+          height="18"
+          rx="9"
+          fill="#22d3ee">
+
+      <animate attributeName="width"
+               values="0;260"
+               dur="1.5s"
+               fill="freeze"/>
+
+    </rect>
+
+    <text x="345"
+          y="249"
+          fill="#22d3ee"
+          font-family="monospace"
+          font-size="11">
+      26
+    </text>
+
+
+    <!-- Scholarship -->
+
+    <text x="20"
+          y="280"
+          fill="#cbd5e1"
+          font-family="monospace"
+          font-size="11">
+      SCHOLARSHIPCONNECT AI
+    </text>
+
+    <rect x="20"
+          y="290"
+          width="310"
+          height="18"
+          rx="9"
+          fill="#172033"/>
+
+    <rect x="20"
+          y="290"
+          width="210"
+          height="18"
+          rx="9"
+          fill="#a78bfa">
+
+      <animate attributeName="width"
+               values="0;210"
+               dur="1.5s"
+               begin=".3s"
+               fill="freeze"/>
+
+    </rect>
+
+    <text x="345"
+          y="304"
+          fill="#a78bfa"
+          font-family="monospace"
+          font-size="11">
+      21
+    </text>
+
+
+    <!-- Career -->
+
+    <text x="20"
+          y="335"
+          fill="#cbd5e1"
+          font-family="monospace"
+          font-size="11">
+      CAREERCONNECT AI
+    </text>
+
+    <rect x="20"
+          y="345"
+          width="310"
+          height="18"
+          rx="9"
+          fill="#172033"/>
+
+    <rect x="20"
+          y="345"
+          width="170"
+          height="18"
+          rx="9"
+          fill="#f472b6">
+
+      <animate attributeName="width"
+               values="0;170"
+               dur="1.5s"
+               begin=".6s"
+               fill="freeze"/>
+
+    </rect>
+
+    <text x="345"
+          y="359"
+          fill="#f472b6"
+          font-family="monospace"
+          font-size="11">
+      17
+    </text>
+
+
+    <!-- FixMyCampus -->
+
+    <text x="20"
+          y="390"
+          fill="#cbd5e1"
+          font-family="monospace"
+          font-size="11">
+      FIXMYCAMPUS
+    </text>
+
+    <rect x="20"
+          y="400"
+          width="310"
+          height="18"
+          rx="9"
+          fill="#172033"/>
+
+    <rect x="20"
+          y="400"
+          width="125"
+          height="18"
+          rx="9"
+          fill="#22d3ee">
+
+      <animate attributeName="width"
+               values="0;125"
+               dur="1.5s"
+               begin=".9s"
+               fill="freeze"/>
+
+    </rect>
+
+    <text x="345"
+          y="414"
+          fill="#22d3ee"
+          font-family="monospace"
+          font-size="11">
+      12
+    </text>
+
+
+    <!-- =================================================
+         NOW PANEL
+         ================================================= -->
+
+    <rect x="460"
+          y="155"
+          width="210"
+          height="280"
+          rx="20"
+          fill="#101827"
+          stroke="url(#aurora)"
+          stroke-width="2"/>
+
+    <text x="485"
+          y="190"
+          fill="#22d3ee"
+          font-family="monospace"
+          font-size="12"
+          letter-spacing="2">
+      NOW
+    </text>
+
+    <circle cx="630"
+            cy="186"
+            r="5"
+            fill="#22d3ee">
+
+      <animate attributeName="opacity"
+               values="1;.25;1"
+               dur="1.2s"
+               repeatCount="indefinite"/>
+
+    </circle>
+
+
+    <text x="485"
+          y="225"
+          fill="#f8fafc"
+          font-family="monospace"
+          font-size="14">
+      BUILDING
+    </text>
+
+    <text x="485"
+          y="250"
+          fill="#64748b"
+          font-family="monospace"
+          font-size="10">
+      AI + FULL STACK
+    </text>
+
+
+    <line x1="485"
+          y1="275"
+          x2="645"
+          y2="275"
+          stroke="#334155"/>
+
+
+    <text x="485"
+          y="305"
+          fill="#cbd5e1"
+          font-family="monospace"
+          font-size="11">
+      LOCATION
+    </text>
+
+    <text x="485"
+          y="324"
+          fill="#22d3ee"
+          font-family="monospace"
+          font-size="12">
+      BENGALURU
+    </text>
+
+
+    <text x="485"
+          y="355"
+          fill="#cbd5e1"
+          font-family="monospace"
+          font-size="11">
+      COMPANY
+    </text>
+
+    <text x="485"
+          y="374"
+          fill="#a78bfa"
+          font-family="monospace"
+          font-size="12">
+      CMR UNIVERSITY
+    </text>
+
+
+    <text x="485"
+          y="405"
+          fill="#cbd5e1"
+          font-family="monospace"
+          font-size="11">
+      FOCUS
+    </text>
+
+    <text x="485"
+          y="424"
+          fill="#f472b6"
+          font-family="monospace"
+          font-size="12">
+      BUILD • CREATE • SHIP
+    </text>
+
+  </g>
+
+
+  <!-- =====================================================
+       HOLOGRAPHIC SWEEP
+       ===================================================== -->
+
+  <rect x="40"
+        y="245"
+        width="355"
+        height="365"
+        rx="28"
+        fill="none"
+        stroke="#ffffff"
+        stroke-width="25"
+        opacity="0"
+        transform="skewX(-12)">
+
+    <animate attributeName="x"
+             values="-300;1300"
+             dur="4s"
+             repeatCount="indefinite"/>
+
+    <animate attributeName="opacity"
+             values="0;.07;0"
+             dur="4s"
+             repeatCount="indefinite"/>
+
+  </rect>
+
+
+  <!-- =====================================================
+       FOOTER
+       ===================================================== -->
+
+  <text x="600"
+        y="650"
+        text-anchor="middle"
+        fill="#475569"
+        font-family="monospace"
+        font-size="10"
+        letter-spacing="2">
+    IDENTITY VERIFIED • SYSTEM ONLINE • SHAZ-06
+  </text>
+
+</svg>
