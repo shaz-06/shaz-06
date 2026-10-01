@@ -246,7 +246,7 @@ Fitness
 
 </div>
 
-#🎬 Animation System
+# 🎬 Animation System
 <div align="center">
 
                     SHAZ-06
