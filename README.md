@@ -6,6 +6,10 @@
 
 <img src="./hero.svg?v=1" width="100%" alt="Shashank Shetty Developer Profile">
 
+<img src="./visitor-counter.svg?v=1"
+       width="100%"
+       alt="SHAZ-06 GitHub Visitor Analytics">
+
 <br>
 
 <strong>Full Stack Developer • AI Enthusiast • Builder • Creator</strong>
