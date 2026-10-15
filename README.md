@@ -6,7 +6,7 @@
 
 <img src="./hero.svg?v=1" width="100%" alt="Shashank Shetty Developer Profile">
 
-<img src="./visitor-counter.svg?v=1"
+<img src="./visitor-counter.svg?v=2"
        width="100%"
        alt="SHAZ-06 GitHub Visitor Analytics">
 
